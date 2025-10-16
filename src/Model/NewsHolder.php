@@ -131,7 +131,7 @@ class NewsHolder extends Page {
 		}
 
 		$orderBy = strlen($this->OrderBy) ? $this->OrderBy : 'OriginalPublishedDate';
-		$dir = strlen($this->OrderDir) ? $this->OrderDir : 'DESC';
+		$dir = strlen($this->OrderDir ?? '') ? $this->OrderDir : 'DESC';
 		if (!in_array($dir, array('ASC', 'DESC'))) {
 			$dir = 'DESC';
 		}
