@@ -2,11 +2,11 @@
 
 ## Requirements
 
-SilverStripe 4
+SilverStripe 6 
 
 ## Overview
 
-Forked from Nyeholt news and upgraded for SS 4
+Forked from Nyeholt news and upgraded for SS 6
 
 The News module provides a straightforward method for creating and publishing
 news articles on a website. In some respects it is similar to the Blog module,
