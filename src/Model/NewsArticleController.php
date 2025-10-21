@@ -1,6 +1,6 @@
 <?php
 
-namespace jmonek\khnews\Model;
+namespace lawtonwebdept\khnews\Model;
 
 use PageController;
 
