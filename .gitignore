@@ -1,0 +1,7 @@
+composer.phar
+/vendor/
+/public/
+.env
+.user.ini
+php.ini
+composer.lock

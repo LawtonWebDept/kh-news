@@ -20,5 +20,11 @@
 		"expose": [
 			"client/images"
 		]
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"silverstripe/vendor-plugin": true
+		}
 	}
 }
