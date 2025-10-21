@@ -1,6 +1,6 @@
 <?php
 
-namespace jmonek\khnews\Model;
+namespace lawtonwebdept\khnews\Model;
 
 use Page;
 use SilverStripe\Assets\File;
@@ -15,7 +15,7 @@ class NewsArticle extends Page {
 
 	private static $table_name = 'NewsArticle';
 
-	private static $icon = 'jmonek/kh-news:client/images/newspaper-file.gif';
+	private static $icon = 'lawtonwebdept/kh-news:client/images/newspaper-file.gif';
 
 	private static $db = [
 		'Summary' => 'HTMLText',
