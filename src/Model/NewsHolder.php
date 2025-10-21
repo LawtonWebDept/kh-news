@@ -1,6 +1,6 @@
 <?php
 
-namespace jmonek\khnews\Model;
+namespace lawtonwebdept\khnews\Model;
 
 use Page;
 use SilverStripe\Forms\DropdownField;
@@ -33,7 +33,7 @@ class NewsHolder extends Page {
 		'PrimaryNewsSection'	=> true
 	];
 
-	private static $icon = 'jmonek/kh-news:client/images/newsholder-file.gif';
+	private static $icon = 'lawtonwebdept/kh-news:client/images/newsholder-file.gif';
 
 	private static $allowed_children = [
 		NewsArticle::class,

@@ -1,8 +1,8 @@
 {
-	"name": "jmonek/kh-news",
+	"name": "lawtonwebdept/kh-news",
 	"description": "News module for SilverStripe 6",
 	"type": "silverstripe-vendormodule",
-	"keywords": ["klundthosmer", "news"],
+	"keywords": ["lawtonwebdept", "news"],
 	"authors": [
 		{"name": "Lawton Printing"}
 	],
@@ -12,7 +12,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"jmonek\\kh-news\\": "src/"
+			"lawtonwebdept\\kh-news\\": "src/"
 		}
 	},
 	"extra": {
@@ -20,5 +20,11 @@
 		"expose": [
 			"client/images"
 		]
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"silverstripe/vendor-plugin": true
+		}
 	}
 }
